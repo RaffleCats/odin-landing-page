@@ -1,0 +1,157 @@
+body {
+    font-family: Roboto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.section-header,
+.section-info,
+.section-quote,
+.section-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.section-header,
+.section-footer {
+    background-color: #1F2937;
+}
+
+.section-quote {
+    background-color: #E5E7EB;
+}
+
+.content-header,
+.content-info,
+.content-quote,
+.content-footer {
+    width: 1100px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-header {
+    margin-top: 24px;
+    margin-bottom: 150px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.header-links {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.header-links a:link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-links a:visited {
+    color: #E5E7EB;
+}
+
+.intro {
+    width: 1100px;
+    margin-top: 100px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.intro-text {
+    width: 500px;
+    height: 250px;
+    flex: 0 1 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 0px;
+}
+
+.intro-text button {
+    font-size: 18px;
+    font-weight: 900;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    
+    border: none;
+    border-radius: 6px;
+    padding: 6px 18px;
+}
+
+.intro-image {
+    width: 500px;
+    height: 250px;
+    color: #F9FAF8;
+    background-color: grey;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-info {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info-cards {
+    display: flex;
+    gap: 48px;
+}
+
+.card {
+    width: 212px;
+}
+
+.card-shape {
+    width: 200px;
+    height: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
